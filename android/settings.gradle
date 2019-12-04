@@ -1,0 +1,2 @@
+rootProject.name = 'RnToWeb'
+include ':app'

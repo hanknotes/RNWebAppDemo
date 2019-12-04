@@ -1,0 +1,16 @@
+npm install --save-dev webpack
+npm install --save-dev webpack-cli   //webpack的命令行工具
+
+npm install --save-dev webpack-dev-server    // 可以启动本地server
+
+npm install --save-dev babel-loader@8.0.0-beta.0 @babel/core @babel/preset-env @babel/preset-react  //安装babel，可以对es6 7  jsx等文件进行解析
+//npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react   //本行是剩余的安装包，按需要install
+//npm install --save react react-dom
+
+npm install --save-dev style-loader css-loader  // 解析css
+npm install --save-dev postcss-loader autoprefixer// css适应不同浏览器和自动添加前缀
+
+
+//npm install clean-webpack-plugin --save-dev //清理缓存
+
+npm install react react-dom react-native-web --save // react-native  转web的方案
